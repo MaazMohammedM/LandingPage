@@ -119,3 +119,72 @@ header nav ul li a{
 .sectionTwo .boxes .boxContainer img{
     border-radius: 18px;
 }
+
+.qouteSection{
+    padding: 64px 200px;
+    background-color: #e5e7eb;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.qouteSection p {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.qouteSection .author{
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.cta{
+    padding: 48px 200px;
+}
+
+.cta .blueBox{
+    background-color: #3882f6;
+    padding: 24px 64px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.cta .blueBox h4{
+    margin-bottom: 4px;
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.cta .blueBox p{
+
+    color: #f9faf8;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.cta .blueBox button{
+    flex-shrink: 0;
+    padding: 12px 24px;
+    border-radius: 12px;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+footer{
+    padding: 12px 200px;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+    font-size: 16px;
+}
